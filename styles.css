@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    margin: 3rem;
+    background-image: url(./Assets/woman-6882918\ 1.svg);
+    background-size: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    display: flex;
+    gap: 2rem;
+}
+
+aside a{
+    border: 1px solid;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border-radius: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    gap: 4rem;
+}
+
+nav div{
+    display: flex;
+    gap: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+}
+h1{
+    font-size: 48px;
+}
+span{
+    font-size: 18px;
+}
+
+#buttons{
+    display: flex;
+    gap: 6rem;
+}
+
+#buttons a{
+    padding: 0.9rem 1.4rem 0.9rem 1.4rem;
+    border-radius: 2rem;
+}
+
+#seljogo{
+    background-color: #E32966;
+}
+
+#precos{
+    border: 1px solid;
+    border-color: #E32966;
+}
+
+#icons{
+    display: flex;
+    gap: 2rem;
+}
